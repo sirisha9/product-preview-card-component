@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+.pic img{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 650px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: var(--Cream);
+}
+
+.card{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    height: 440px;
+    border: 1px solid white ;
+    background-color: var(--White);
+
+}
+.header p{
+    background-color: var(--White);
+    font-family: 'montserrat';
+    font-size: 15px;
+    letter-spacing: 3.5px;
+    margin-bottom: 10px;
+}
+.section b{
+    margin-top: 10px;
+    background-color: var(--White);
+    font-weight: strong;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.text{
+    margin-top: 15px;
+    line-height: 1.3pc;
+    font-size: 13px;
+    font-family: 'montserrat';
+    margin-bottom: 10px;
+}
+.cost{
+    color: var(--Dark-cyan);
+}
+.cost b{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'fraunces';
+}
+.cost s{
+    font-size: small;
+    margin-bottom: 20px;
+}
+.add{
+    font-size: medium;
+    font-family: 'montserrat';
+    background-color: var(--Dark-cyan);
+    width: 100%;
+    outline: none;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 15px;
+    color: white;
+}
